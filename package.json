@@ -1,0 +1,26 @@
+{
+  "name": "sg-log-analyzer",
+  "version": "1.0.1",
+  "author": "AnanthFrancis",
+  "private": true,
+  "description": "AXA SG ILP tools",
+  "proxy": "http://localhost:8081",
+  "repository": {
+    "type": "git",
+    "url": "https://github.axa.com/axa-singapore/sg-log-analyzer.git"
+  },
+  "engines": {
+    "node": "^8.0.0",
+    "npm": "^5.5.0"
+  },
+  "scripts": {
+    "start:dist": "node dist/index.js",
+    "start": "node app.js"
+  },
+  "dependencies": {
+    "express": "^4.16.0",
+    "express-fileupload": "^0.4.0",
+    "mz": "^2.7.0",
+    "concat-files":"^0.1.1"
+  }
+}
