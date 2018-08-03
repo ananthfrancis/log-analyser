@@ -1,0 +1,13 @@
+[
+  {
+    "namespace": "project1",
+    "totalResource": {
+      "limits.cpu": "12",
+      "limits.memory": "32Gi"
+    },
+    "userResource": {
+      "limits.cpu": "8275m",
+      "limits.memory": "17152Mi"
+    }
+  }
+]
